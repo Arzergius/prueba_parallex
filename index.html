@@ -22,6 +22,11 @@
         <img src="retroscavadora_brazo2.png" id="brazo2">
         <img src="retroscavadora_pala.png" id="pala">
     </section>
+    <div class= "sec">
+        <h1>Parallax Scrolling</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+
+    </div>
 
     <script>
         let cuerpo = document.getElementById('cuerpo');
@@ -32,12 +37,6 @@
         window.addEventListener('scroll',function(){
             let value = window.scrollY;
             
-    // Adjust rotation angles based on scroll position
-        //brazo1.style.transform = `rotate(${value * -0.1}deg)`;
-        //brazo2.style.transform = `rotate(${value * -0.1}deg)`;
-        //pala.style.transform = `rotate(${value * -0.12}deg)`; 
-
-        // Oscila entre -15° y 15° usando Math.sin()
     let angle = Math.sin(value * 0.02) * 15;
 
         brazo1.style.transform = `rotate(${angle}deg)`; // Oscila alrededor de 75°
@@ -47,5 +46,6 @@
         })
 
     </script>
+    
 </body>
 </html>

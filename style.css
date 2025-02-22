@@ -18,7 +18,7 @@ header
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 20px 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +29,7 @@ header .logo
     color: #fff;
     font-weight: 700;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.8em;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -42,7 +42,7 @@ header ul
 header ul li
 {
     list-style: none;
-    margin-right: 20px;
+    margin-right: 0 10px;
 }
 header ul li a
 {
@@ -50,6 +50,7 @@ header ul li a
     color: #fff;
     padding: 6px 15px;
     border-radius: 20px;
+    transition: 0.3s ease-in-out;
 }
 header ul li a:hover,
 header ul li a.active
@@ -71,7 +72,7 @@ section ::before
     bottom: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(to top, #1c0522, transparent);
+    background: linear-gradient(to top, #1c0522, #fff);
     z-index: 1000;
 }
 section img
@@ -88,6 +89,7 @@ section img
     position: relative;
     padding: 100px;
     background: #1c0522;
+    color: #fff;
 }
 .sec h2
 {
@@ -98,6 +100,8 @@ section img
 .sec p
 {
     font-size: 1.2em;
-    background: #fff;
+    background: #1c0522;
 }
+
+
 
